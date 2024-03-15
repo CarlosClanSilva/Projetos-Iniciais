@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Arial sans-serif;
+    background-color: #0156A1;
+    color: rgba(0,0,0,1);
+}
+
+div#interface { 
+    width: auto;
+    background-color: #FFFFFF;
+    margin: 40px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+    }
+
+header#cabecalho {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 1px #606060 solid;
+    height: 100px;
+
+}
+
+header#cabecalho img {
+    position: absolute;
+    width: 250px;
+    right: 60px;
+    top: 50px;
+}
+
+header#cabecalho h1 {    
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+	color: rgba(52, 223, 36, 0);
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+    margin-bottom: -20px;
+}
+
+header#cabecalho h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    right: 400px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1{
+    display: none
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+img#icone {
+    width: 100px;
+}
+
+.direita {
+    text-align: right;
+}
+
+div#corpo { 
+    width: auto;
+    background-color: #FFFFFF;
+    margin: 500px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+    }
+
+header#cabecalho-apresentacao img {
+    width: 500px;
+}
